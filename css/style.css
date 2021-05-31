@@ -1,0 +1,55 @@
+/*background image*/
+.bg-image {
+	background-image: url(../image/photographer.jpeg);
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+/*flex examples*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+
+.left-video {
+	width: 570px;
+	height: 320px;
+	background-color: lightblue;
+	/*margin-right: 30px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-video {
+	width: 570px;
+	height: 320px;
+	background-color: grey;
+}
+
+.video-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.read {
+	color: #FF7A00;
+	font-size: 14px;
+}
+
+.read::after {
+	content: "";
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: inline-block;
+}
+
+
+
+
+
+
